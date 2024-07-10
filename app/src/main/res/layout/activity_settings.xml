@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@color/lightgreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".settings">
+
+    <Button
+        android:id="@+id/back"
+        android:background="@drawable/arrow_back"
+        android:layout_gravity="left"
+        android:padding="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:src="@drawable/leaves"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="ver.1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+    <Button
+        android:id="@+id/crops"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Crops Information"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/crop"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <Button
+        android:id="@+id/water"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Set Water Schedule"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/water_drop"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/fertilizer"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Set Fertilizer Schedule"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/calendar"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/myweather"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Weather Condition"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/cloud_24"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Send Feedback"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/feedback"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombutton"
+        android:gravity="left|center"
+        android:text="          Log out"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/logout"
+        android:paddingLeft="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "793928992526",
+    "firebase_url": "https://crop-craft-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "crop-craft",
+    "storage_bucket": "crop-craft.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793928992526:android:6854250ac40e06dddf395f",
+        "android_client_info": {
+          "package_name": "com.cropcraft.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz19hitGi6tdt0mIOsElhVxFeYdb8qt04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793928992526:android:2fc6e30e3b9b6d08df395f",
+        "android_client_info": {
+          "package_name": "com.cropcraft.test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz19hitGi6tdt0mIOsElhVxFeYdb8qt04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793928992526:android:d5d1d2e77861d385df395f",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCz19hitGi6tdt0mIOsElhVxFeYdb8qt04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

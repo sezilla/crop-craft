@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/lightgreen"
+    tools:context=".setfertilizer">
+
+    <LinearLayout
+        android:gravity="center|top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:background="@drawable/arrow_back"
+            android:padding="20dp"
+            tools:ignore="RtlHardcoded" />
+
+
+        <TextView
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:text="Set weekly Fertilizer Schedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TimePicker
+        android:id="@+id/fertilizertp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+         />
+
+    <Spinner
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"
+        android:id="@+id/dayOfWeekSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fertilizer"
+        android:layout_marginTop="16dp"
+        android:entries="@array/days_of_week"
+        android:prompt="@string/select_day_prompt" />
+
+        <Button
+            android:id="@+id/setAlarmButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/weekbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Set Weekly Schedule" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

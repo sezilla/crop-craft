@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CropCraft" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#119F45</item>
+        <item name="colorPrimaryVariant">#42E07B</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/maincolor</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color.-->
+        <item name="android:statusBarColor">#000000</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.CropCraft" parent="Base.Theme.CropCraft" />
+
+    <color name="green">#131313</color>
+</resources>

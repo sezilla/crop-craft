@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="#CCCCCC"/>
+            <corners android:radius="8dp"/>
+        </shape>
+    </item>
+
+    <!-- Image placeholder -->
+    <bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+        android:src="@drawable/crop"
+        android:gravity="center"/>
+
+
+    <item
+        android:left="5dp"
+    android:right="5dp"
+    android:top="5dp"
+    android:bottom="5dp">
+    <bitmap
+        android:src="@drawable/crop"
+    android:gravity="center"/>
+</item>
+
+    </layer-list>

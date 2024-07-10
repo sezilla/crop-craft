@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="@color/lightgreen"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+
+        android:background="#B8E1C7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="@color/black"
+            android:id="@+id/user_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="20dp"
+            android:text="@string/hi"/>
+
+
+        <Button
+            android:padding="20dp"
+            android:layout_margin="15dp"
+            android:layout_gravity="right"
+            android:id="@+id/settings"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/settings"
+            tools:ignore="RtlHardcoded" />
+
+    </FrameLayout>
+
+
+    <Button
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/addbutton"
+        android:id="@+id/btn_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="50dp"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        tools:ignore="RtlCompat" />
+
+
+    <LinearLayout
+        android:paddingLeft="30dp"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ListView
+            android:id="@+id/schedulelist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--  pop upssss  -->
+    <FrameLayout
+        android:id="@+id/popup"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/rounded"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:scaleType="centerCrop"
+            android:src="@drawable/baseline_remove_24" />
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:clickable="true"
+            android:id="@+id/tomato"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:padding="10dp"
+                app:shapeAppearanceOverlay="@style/circular"
+                app:strokeColor="@color/bgcolor"
+                app:strokeWidth="2dp"
+                android:src="@drawable/tomato"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:text="Tomato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/ampalaya"
+                android:layout_marginHorizontal="25dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:padding="10dp"
+                    app:shapeAppearanceOverlay="@style/circular"
+                    app:strokeColor="@color/bgcolor"
+                    app:strokeWidth="2dp"
+                    android:src="@drawable/ampalaya"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="Ampalaya"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/sitaw"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:padding="10dp"
+                    app:shapeAppearanceOverlay="@style/circular"
+                    app:strokeColor="@color/bgcolor"
+                    app:strokeWidth="2dp"
+                    android:src="@drawable/sitaw"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:text="Sitaw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/bellpepper"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/bellpepper"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Bell Pepper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/cauliflower"
+                    android:layout_marginHorizontal="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/cauliflower"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Cauliflower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/kangkong"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/kangkong"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Kang-kong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/bottlegourd"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/bottlegourd"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Bottle Gourd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/patola"
+                    android:layout_marginHorizontal="25dp"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/patola"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Patola"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:id="@+id/labanos"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:padding="10dp"
+                        app:shapeAppearanceOverlay="@style/circular"
+                        app:strokeColor="@color/bgcolor"
+                        app:strokeWidth="2dp"
+                        android:src="@drawable/labanos"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"/>
+                    <TextView
+                        android:textColor="@color/black"
+                        android:layout_marginTop="10dp"
+                        android:text="Labanos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        </LinearLayout>
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

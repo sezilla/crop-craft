@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@color/lightgreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".feedbacks">
+
+
+    <Button
+        android:id="@+id/back"
+        android:background="@drawable/arrow_back"
+        android:layout_gravity="left"
+        android:padding="20dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:ignore="RtlHardcoded" />
+
+    <ImageView
+        android:src="@drawable/leaves"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:text="ver.1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
+                android:gravity="left|top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:text="Feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/feed"
+                android:gravity="left|top"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="20dp"
+            android:id="@+id/send"
+            android:text="Send"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

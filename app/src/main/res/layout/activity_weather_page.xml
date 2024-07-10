@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:context=".WeatherPage">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:id="@+id/weatherIcon"
+        android:src="@drawable/leaves"
+        android:layout_marginTop="160dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/weatherIcon"
+        >
+
+        <!--android:layout_above="@+id/cityFinder"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/temperature"
+            android:paddingStart="30dp"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:text="°C"
+            android:textColor="@color/black">
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityName"
+            android:textSize="40sp"
+            android:textColor="@color/black"
+            android:text="City"
+            android:paddingStart="30sp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/weatherCondition"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:text="Weather"
+            android:paddingStart="30sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/cityFinder"
+        android:background="@drawable/buttondesign"
+        android:layout_marginBottom="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Want To Search For New City"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>-->
+
+</RelativeLayout>

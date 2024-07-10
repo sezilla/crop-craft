@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Crop Craft</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="click_to_login">Click to login</string>
+    <string name="click_to_register">click to register</string>
+    <string name="log_out">Log Out</string>
+    <string name="username">Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hi">Hi</string>
+    <string name="set_fertilizer_schedule">Set Fertilizer Schedule.</string>
+    <string name="set_water_schedule">Set Water Schedule.</string>
+
+
+    <string name="select_day_prompt">Select Day</string>
+</resources>
