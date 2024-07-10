@@ -1,2 +1,4 @@
 # crop-craft
- mobile app for plant related stuff
+ A mobile application for crop management
+
+ *not completely developed
