@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bgcolor"
+    android:padding="30dp"
+    tools:context=".startpage">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/leaves"
+            android:layout_margin="60dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+        <Button
+            android:padding="30dp"
+            android:id="@+id/addcrops"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custombutton"
+            android:gravity="left|center"
+            android:text="          Add a Crop"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/crop"
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:padding="30dp"
+            android:id="@+id/viewfeedback"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custombutton"
+            android:gravity="left|center"
+            android:text="          View feedbacks"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/feedback"
+            android:paddingLeft="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

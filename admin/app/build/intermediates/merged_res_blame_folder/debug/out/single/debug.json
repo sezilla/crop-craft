@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\layout\\list_item.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_kangkong.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/kangkong.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_bg_splash.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/bg_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_feedback.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\feedback.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_ampalaya.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/ampalaya.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_baseline_person_24.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/baseline_person_24.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_settings.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/settings.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/baseline_lock_24.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_arrow_back.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_semit_transparent.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/semit_transparent.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_soil.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/soil.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_transparent.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/transparent.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_cauliflower.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/cauliflower.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_custombutton.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\custombutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_landing_bg.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/landing_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\icon.png"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_rounded.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_worldicon.png.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/worldicon.png"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_tomato.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/tomato.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_logout.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/logout.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_gg.png.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/gg.png"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_email.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/email.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_bottlegourd.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/bottlegourd.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_sky.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/sky.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_addbutton.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/addbutton.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_hand.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/hand.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_leave.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/leave.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-anydpi\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_arrowback.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/arrowback.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_bg.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/bg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_add.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/add.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\layout_activity_viewfeedbacks.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\layout\\activity_viewfeedbacks.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_bellpepper.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/bellpepper.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_flower.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/flower.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_baseline_remove_24.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/baseline_remove_24.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_login.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/login.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_icon.png.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/icon.png"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_calendar.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_circle.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_labanos.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/labanos.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_water_drop.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/water_drop.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_sitaw.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/sitaw.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_blank.jpeg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/blank.jpeg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_custombutton2.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/custombutton2.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_road.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/road.jpg"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_loginbnt.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/loginbnt.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-anydpi\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_crop.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\crop.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_person.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/person.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_patola.jpg.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/patola.jpg"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\drawable_leaves.png.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\drawable\\leaves.png"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_lock.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_baseline_info_24.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/baseline_info_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-merged_res-35:\\layout_activity_startpage.xml.flat",
+        "source": "C:\\Users\\sezil\\.gradle\\daemon\\8.2\\com.cropcraft.nanaman.app-main-37:\\layout\\activity_startpage.xml"
+    },
+    {
+        "merged": "com.cropcraft.nanaman.app-merged_res-35:/drawable_rectangle.xml.flat",
+        "source": "com.cropcraft.nanaman.app-main-37:/drawable/rectangle.xml"
+    }
+]
